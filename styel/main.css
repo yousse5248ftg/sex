@@ -1,0 +1,187 @@
+/*Ruls*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 65.0%;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+/*Ruls*/
+/*Header styel*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #101010;
+    transition: 0.5s;
+}
+.sticky{
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    align-items: center;
+    padding-left: 40px;
+
+}
+.sticky h1{
+    color: black;
+}
+.sticky .links a{
+    color: black;
+}
+header h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+header h1 span{
+    color: red;
+}
+header .links {
+    padding: 10px;
+}
+header .links a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 15px;
+    color: #fff;
+}
+/*landing - nav*/
+@media (max-width: 1200px) {
+    header .links a{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header .links a{
+        font-size: 1.5rem;
+    }
+  
+}
+
+@media (max-width: 768px) {
+    header .links a{
+        font-size: 15px;
+    }
+  
+}
+
+@media (max-width: 480px) {
+    header .links a{
+        font-size: 10px;
+    }
+}
+/*header End*/
+/*landing Start*/
+.landing{
+    text-align: center;
+    height: 50vh;
+    background-color: #444;
+}
+.landing h2{
+    padding-top: 20vh;
+    font-size: 30px;
+    color: red;
+}
+.landing h2 span{
+    color: #fff;
+}
+.landing p {
+    font-size: 15px;
+    color: #fff;
+}
+/*landing End*/
+/*section Start*/
+h3{
+    color: #f6f6f6;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 2rem;
+    background-color: #555;
+}
+h3 span{
+    color: red;
+}
+.card-section{
+    height: auto;
+    background-color: #555;
+}
+@media (max-width: 1200px) {
+    .card-contaner{
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-contaner{
+        display: block;
+    }
+  
+}
+
+@media (max-width: 768px) {
+    .card-contaner{
+        display: block;
+    }
+  
+}
+
+@media (max-width: 480px) {
+    .card-contaner{
+        display: block;
+    }
+}
+.card-contaner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
+}
+.card{
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 0 0 20px #999;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 3px;
+}
+.card h4{
+    font-size: 2rem;
+    margin: 3px;
+}
+.card p {
+    font-size: 15px;
+    margin: 3px;
+    padding: 5px;
+}
+.card a{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    padding: 3px 50px;
+    text-decoration: none;
+    background-color: lightgreen;
+    color: #fff;
+}
+/*section End*/
+/*footer start*/
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #f6f6f6;
+    color: #333;
+}
+/*footer End*/

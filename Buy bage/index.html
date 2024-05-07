@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodaPlus | Buying Bage</title>
+    <!-- normalize css link -->
+    <link rel="stylesheet" href="./styels/normalize.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="./styels/main.css">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <h1>Coda <span>Plus</span></h1>
+        <div class="links">
+            <a href="../index.html">Home</a>
+            <a href="">Log In</a>
+            <a href="">Sign Up</a>
+        </div>
+    </header>
+    <!-- header End -->
+    <form action="">
+
+    <!-- frist step to buy -->
+    <div class="RiotID">
+        <div class="RiotID-content">
+            <h2>Enter Your Riot ID</h2>
+            <input type="text" placeholder="Riot ID" required id="User-Riot-Id">
+            <p class="Description">To identify your Riot ID, please see your profile button page and copy your Riot ID + your brand next to your Riot ID. Please remove spaces between existing letters (example: Westbourne#SEA).</p>
+        </div>
+    </div>
+
+    <!-- End frist step to buy -->
+    <!-- Second Step tp buy -->
+
+    <div class="Choose-the-product">
+        <div class="Choose-the-product-content">
+            <h2>Choose the product</h2>
+            <div class="inbuts">
+                <input type="text" placeholder="Your product" required id="User-choose-product">
+
+            </div>
+        </div>
+    </div>
+    <!-- End Second Step tp buy -->
+    <!-- thitd How To Day -->
+
+        <div class="How-To-Bay">
+            <div class="How-To-Bay-content">
+                <h2>How To Bay</h2>
+                <div class="inbuts">
+                    <input type="text" placeholder="How You Want To Bay For Us" required id="How-To-Bay">
+                    <p id="msg">msg</p>
+                </div>
+            </div>
+        </div>
+            <!-- End thitd How To Bay -->
+ <!-- Send Data To Js Scripts -->
+<input type="submit" value="Done" id="btn">
+<!-- End Send Data To Js Scripts -->
+    </form>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="./apps/app.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>

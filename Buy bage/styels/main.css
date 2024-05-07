@@ -1,0 +1,154 @@
+/*Ruls*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 65.0%;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+/*Ruls*/
+/*Header styel*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #101010;
+    transition: 0.5s;
+}
+.sticky{
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    align-items: center;
+    padding-left: 40px;
+
+}
+.sticky h1{
+    color: black;
+}
+.sticky .links a{
+    color: black;
+}
+header h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+header h1 span{
+    color: red;
+}
+header .links {
+    padding: 10px;
+}
+header .links a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 15px;
+    color: #fff;
+}
+/*landing - nav*/
+@media (max-width: 1200px) {
+    header .links a{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header .links a{
+        font-size: 1.5rem;
+    }
+  
+}
+
+@media (max-width: 768px) {
+    header .links a{
+        font-size: 15px;
+    }
+  
+}
+
+@media (max-width: 480px) {
+    header .links a{
+        font-size: 10px;
+    }
+}
+/*header End*/
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+#msg{
+    color: red;
+    font-size: 20px;
+}
+.RiotID,.Choose-the-product,.How-To-Bay {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.Description,.inbuts {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    form{
+        width: 50%;
+    } 
+}
+
+@media (max-width: 992px) {
+    form{
+        width: 80%;
+    } 
+  
+}
+
+@media (max-width: 768px) {
+    form{
+        width: 70%;
+    } 
+  
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 60%;
+    } 
+}
